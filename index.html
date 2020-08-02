@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Organization chart maker</title>
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./plugins/slick-1.8.1/slick.css">
+    <link rel="stylesheet" href="./plugins/meanmenu/meanmenu.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="./fonts/ep-icon-fonts/css/ep-font.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/settings.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/my.css">
+</head>
+
+<body>
+
+    <div class="landing-wrapper">
+
+            <header class="site-header">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center position-relative">
+                            <div class="col-sm-4 col-6 col-lg-2 col-xl-2 order-lg-1">
+                                <div class="brand">
+                                    <div class="logo">
+                                        <span class='logo_o'>Org</span>
+                                        <span class='logo_c'>Chart</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-7 col-lg-3 col-xl-3 offset-xl-1 d-none d-sm-block order-lg-3">
+                                <div class="header-btns">
+                                    <div class="btn-1 btn-outlined">
+                                        <a href="https://github.com/Hoogkamer/vue-org-chart" target="_blank">
+                                            <img class="githublogo" src="image/gh.svg" title='Go to Github project page')>
+                                            Github</a>
+                                    </div>
+                                    <div class="btn-2">
+                                        <a href="#download">Download</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="col-sm-1 col-6 col-lg-7 col-xl-6 position-static order-lg-2">
+                                <div class="main-navigation">
+                                    <ul class="main-menu">
+                                        <li class="menu-item "><a href="https://hoogkamer.github.io/vue-org-chart/#/">Demo</a></li>
+                                        <li class="menu-item "><a href="#faq">Manual</a></li>
+
+                                      
+                                        <li class="menu-item "><a href="#features">Features</a></li>
+                                
+                                        <li class="menu-item"><a href="https://github.com/Hoogkamer/vue-org-chart/issues">Contact</a></li>   
+                                        </ul>
+                                </div>
+                                <div class="mobile-menu"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </header>
+
+        <div class="hero-area pt-4 pt-lg-5">
+            <div class="float-shapes">
+            </div>
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-start">
+                    <div class="col-md-8 col-lg-7 offset-lg-2">
+                        <h1 class="main-title">Free orgchart maker&nbsp&&nbsppublisher</h1>
+
+                    </div>
+                    <div class="col-md-8 col-lg-6 offset-lg-2">
+                        <div class="hero-content-wrapper">
+                            <div class="main-content">
+                                <p>Create your own interactive organizational chart. 100% free. Very easy install and runs in your browser</p>
+                            </div>
+                              <!-- 
+                            <div class="compatible">
+                                <span>Compitable with:</span>
+                                <ul class="compatible-list">
+                                    <li class="list-item"><img src="image/compatible-1.png" alt=""></li>
+                                    <li class="list-item"><img src="image/compatible-2.png" alt=""></li>
+                                    <li class="list-item"><img src="image/compatible-3.png" alt=""></li>
+                                </ul>
+                            </div>
+                            -->
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pt-lg-5">
+                        <div class="hero-btn">
+                            <a href="https://hoogkamer.github.io/vue-org-chart/#/" target="_blank" class="btn btn--primary btn-height-60">See online demo</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="hero-img">
+                            <img src="image/shot1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+         <!-- Client-Section -->
+        <!--
+        <section class="client-section">
+            <div class="container">
+                <div class="client-brand-wrapper">
+                    <div class="single-brand">
+                        <img src="image/logo-5.png" alt=""/>
+                    </div>
+                
+                    <div class="single-brand">
+                        <img src="image/logo-4.png" alt="">
+                    </div>
+                
+                    <div class="single-brand">
+                        <img src="image/logo-3.png" alt="">
+                    </div>
+                
+                    <div class="single-brand">
+                        <img src="image/logo-2.png" alt="">
+                    </div>
+                
+                    <div class="single-brand">
+                        <img src="image/logo-1.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        -->
+
+        <!-- Content Area 01-->
+        <section class="content-section-01">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5  col-md-6 col-sm-8">
+                        <div class="content-image">
+                            <img class="ppl" src="./image/d-people.png" alt="">
+                            <img class="dtl" src="./image/d-details.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 offset-lg-1 col-md-6">
+                        <div class="content-right-content">
+                            <h2>Show department details</h2>
+                            <p>
+                                Show and edit the details of the department and employee profiles
+                            </p>
+                            <div class="content-img">
+                                <img class="profile" src="./image/profile.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Area 02 -->
+        <section class="content-section-02">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xl-6 col-sm-10 col-md-6 col-10 order-md-2 offset-xl-1 d-none d-md-block">
+                        <div class="content-image">
+                            <img class="rocks" src="./image/rocks.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-sm-12 col-md-6 order-md-1">
+                        <div class="content-text content-left-content">
+                            <h2>Completely Safe and Free </h2>
+                            <div class="content-small-card">
+                                <div class="card-icon">
+                                    <i class="icon icon-users-mm-2"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h5>Run locally</h5>
+                                    <p>
+                                        Just unpack the zip-file to a group folder or your webserver. All your data remains local
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-small-card">
+                                <div class="card-icon">
+                                    <i class="icon icon-settings"></i>
+                                </div>
+                                <div class="card-content">
+                                    <h5>Edit via web or excel</h5>
+                                    <p>
+                                        Editing can be done via the webbrowser using an easy interface, or you can upload an excel sheet (for bulk updates)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Content Area -->
+        <section class="content-section-03">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-sm-6 col-md-6 col-10 d-none d-md-block">
+                        <div class="content-img">
+                            <img src="./image/cactus.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 offset-xl-1 col-sm-12">
+                        <div class="content-right-content">
+                            <h2>A unique solution</h2>
+                            <p>
+                                There are many organizational chart solutions, so why this one?
+                            </p>
+                            <ul class="content-list">
+                                <li>
+                                    <span><i class="icon icon-check-2"></i></span>Unlimited free and open source
+                                </li>
+                                <li>
+                                    <span><i class="icon icon-check-2"></i></span>Easy to
+                                    customize and install 
+                                </li>
+                                <li>
+                                    <span><i class="icon icon-check-2"></i></span>Very fast response times
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feature Area-->
+        <a name="features"></a>
+        <section class="feature-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title">
+                            <h2>Features</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="row mb-d-30">
+                            <div class="col-sm-6 mb--30">
+                                <div class="feature-widget">
+                                    <div class="widget-icon">
+                                        <i class="icon icon-edit-72"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h5>Store data local</h5>
+                                        <p>Your data is only at the place you put it yourself. No database needed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb--30">
+                                <div class="feature-widget">
+                                    <div class="widget-icon">
+                                        <i class="icon icon-layers-3"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h5>Easy use</h5>
+                                        <p>Edit in excel (bulk updates, external source) or in the webpage.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb--30">
+                                <div class="feature-widget">
+                                    <div class="widget-icon">
+                                        <i class="icon icon-tablet-mobile"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h5>Supports 1000's departments</h5>
+                                        <p>Easy search and interactive expansion of subdepartments</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb--30">
+                                <div class="feature-widget">
+                                    <div class="widget-icon">
+                                        <i class="icon icon-book-open-2"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h5>Open source</h5>
+                                        <p>You can view and change the source code. Or even better, contribute with improvements</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb--30">
+                                <div class="feature-widget">
+                                    <div class="widget-icon">
+                                        <i class="icon icon-webpage"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h5>Show people in departments</h5>
+                                        <p>Easily add people to departments, search on names to view their profiles</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb--30">
+                                <div class="feature-widget">
+                                    <div class="widget-icon">
+                                        <i class="icon icon-l-settings"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h5>Runs everywhere</h5>
+                                        <p>No install, no webserver, no database. Just copy some files to any location</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Area -->
+        <section class="testimonial-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title">
+                            <div class="faq">
+                                <a name='faq'></a>
+                                <h2>Frequently asked questions</h2>
+                                <h6>Where is my data kept? </h6>
+                                The data is only kept where you put it yourself (see: How do I save the changes for others to see?). It is not send to any other location, so it is completely safe to use. 
+
+                                <h6>How can I change/edit the graph?</h6>
+                                Type '_edit' in the searchbar (without quotes) to swith to editmode. Now you can edit the graph in the application or update via excel
+
+                                <h6>How does editing work in the application?</h6>
+                                <ul>
+                                    <li>Left-click on a department and edit the name, description of type staff in the left screen.</li>
+                                    <li>To change the manager, press the pencil and search for the right person or add a new person </li>
+                                    <li>Add people the same way (use the people tab in the left screen). You can also provide the role the person has in the department</li>
+                                    <li>Right-click on a department in the chart to add a department below</li>
+                                    <li>With right-click you can also move a department: select Cut, then click on another department and right-click and select paste. Do not paste a parent under one of its children (this check has to be build)</li>
+                                </ul>
+
+                                <h6>How does editing work in excel?</h6>
+                                Select File > Export excel. It contains:
+                                <ul>
+                                    <li>chart: id, name, description, parent, indicator for staff department, and id of the manager (from the people tab)
+                                    </li>
+                                    <li>people: id, name, link to photo (see also config.js above), and main role/function of the person
+                                    </li>
+                                    <li>assignment: department id (from chart tab), person id (from people tabl) and role. These are the people working for the department. (manager is assigned in the chart tab) People can be assigned to multiple departments, or even more times to 1 department (with different role for example)
+                                    </li>
+                                </ul>
+
+                                When done, select File > Import excel
+
+                                <h6>How do I save the changes for others to see?</h6>
+                                Everything happens at client side, so changes are only available for you. And if you refresh the page the changes will be gone. To make the changes persistent you must select File > Generate inputfile to create a javascript file which contains the data. This file (data.js) you then must place in the root folder this application is at, replacing the already existing file data.js
+
+                                <h6>Who can edit the graph?</h6>
+                                Anyone can edit, but as stated above, it will be only available for that person. To make the data available for others, you need write access to the folder this application is at, so you can overwrite the data.js file
+
+                                <h6>How do I change the order of the departments under a parent?</h6>
+                                This is not directly supported. There are 2 possibilities however. First switch to editmode. 1) export to excel, then change the order in the sheet, and then read the excel in again 2) cut the department, and paste it under the same parent again. It will be placed last.
+
+                                <h6>How can I customize the application</h6>
+                                You can edit the file 'config.js' in the root of the folder. It also contains the instructions
+                                <h6>How can I use this in my own code</h6>
+                                This is not meant to be a plugin/library, but it is a complete solution. If you want to use this as a part of your own application I recommend to search for a real orgchart plugin.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="testimonial-slider-wrapper">
+                    <div class="row justify-content-center position-relative">
+                        <div class="col-lg-10 ">
+                            <div class="testimonial-slider">
+                                <div class="single-slide">
+                                    <div class="testimonial-content">
+                                        <p>
+                                            “It’s really helped us grow. I can keep all of the customer’s information in
+                                            there so if I need to look up something in the future or call them for a
+                                            follow-up, I have all of that there so it’s really helped us organize the
+                                            whole business.”
+                                        </p>
+                                        <div class="t-small-card">
+                                            <div class="image">
+                                                <img src="./image/t6-nav-1.png" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Gilbert Palmer</h5>
+                                                <span>Founder of Crips</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-slide">
+                                    <div class="testimonial-content">
+                                        <p>
+                                            “It’s really helped us grow. I can keep all of the customer’s information in
+                                            there so if I need to look up something in the future or call them for a
+                                            follow-up, I have all of that there so it’s really helped us organize the
+                                            whole business.”
+                                        </p>
+                                        <div class="t-small-card">
+                                            <div class="image">
+                                                <img src="./image/t6-nav-2.png" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Lucy Rios</h5>
+                                                <span>Design Director at Craze</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-slide">
+                                    <div class="testimonial-content">
+                                        <p>
+                                            “It’s really helped us grow. I can keep all of the customer’s information in
+                                            there so if I need to look up something in the future or call them for a
+                                            follow-up, I have all of that there so it’s really helped us organize the
+                                            whole business.”
+                                        </p>
+                                        <div class="t-small-card">
+                                            <div class="image">
+                                                <img src="./image/t3-nav-1.png" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h5>Sallie Lawson</h5>
+                                                <span>Owner of Crips</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-btns"></div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+        <!-- Cta Section -->
+        <section class="cta-section">
+            <div class="container">
+                <a name='download'></a>
+                <div class="cta-inner-wrapper">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-7 col-lg-8">
+                            <div class="cta-content">
+                               
+                                <span class="title-small-text">Easy as 1-2-3</span>
+                                <h2>Try it out now</h2>
+                                <div class="instructions">
+                      To use this website as-is:
+                                    <ul>
+                                        <li>1a) Download <a href="https://github.com/Hoogkamer/vue-org-chart/raw/master/orgchart.zip">orgchart.zip </a> and extract the zip on your PC.
+
+                                        </li>
+                                        <li>
+                                            1b) -Or- copy content of \docs folder directly from <a href = "https://github.com/Hoogkamer/vue-org-chart" target = "_blank" >this repository</a>
+                                        </li>
+                                        <li>
+                                            2) Copy \docs to any location, like a folder on your computer, AWS S3 bucket or webserver
+
+                                        </li>
+                                        <li>
+                                            3) Open index.html in the browser. For usage instructions see <a href="#faq">FAQ</a>
+                                        </li>
+                                    </ul>
+
+                               
+                                If you like it, please <a href="https://github.com/Hoogkamer/vue-org-chart" target = "_blank">give a star </a> :)
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-section">
+           
+            <div class="container">
+                 <!--
+                <div class="row align-items-center text-center">
+                    <div class="col-lg-2 col-md-3 ">
+                        <div class="footer-logo">
+                            <img src="image/footer-logo.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6  offset-lg-1">
+                        <ul class="nav footer-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-3 offset-lg-1">
+                        <ul class="footer-social-list">
+                            <li>
+                                <a href="">
+                                    <i class="icon icon-logo-fb-simple"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="icon icon-logo-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="icon icon-google"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            -->
+                <div class="copyright">
+                    <p>©2020 M.A. Hoogkamer</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Vendor JS-->
+    <script src="./plugins/jquery/jquery.min.js"></script>
+    <script src="./plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
+    <!-- Plugins JS -->
+    <script src="./plugins/slick-1.8.1/slick.min.js"></script>
+    <script src="./plugins/meanmenu/jquery.meanmenu.js"></script>
+    <script src="./js/active.js"></script>
+    
+    <!-- Default Statcounter code for vue-org-chart http:// -->
+    <script type="text/javascript">
+        var sc_project=12369728; 
+        var sc_invisible=1; 
+        var sc_security="742be2ce"; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async>
+    </script>
+    <noscript>
+        <div class="statcounter"><a title="Web Analytics
+        Made Easy - StatCounter" href="https://statcounter.com/"
+        target="_blank"><img class="statcounter"
+        src="https://c.statcounter.com/12369728/0/742be2ce/1/"
+        alt="Web Analytics Made Easy -
+        StatCounter"></a></div>
+    </noscript>
+    <!-- End of Statcounter Code -->
+</body>
+
+</html>
