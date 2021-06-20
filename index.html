@@ -26,21 +26,27 @@
       <header class="site-header">
         <div class="container">
           <div
-            class="row justify-content-center align-items-center position-relative"
+            class="
+              row
+              justify-content-center
+              align-items-center
+              position-relative
+            "
           >
-            <div class="col-sm-4 col-6 col-lg-2 col-xl-2 order-lg-1">
-              <div class="brand">
-                <div class="logo">
-                  <span class="logo_o">Org</span>
-                  <span class="logo_c">Chart</span>
-                </div>
-              </div>
-            </div>
-
             <div
-              class="col-sm-7 col-lg-3 col-xl-3 offset-xl-1 d-none d-sm-block order-lg-3"
+              class="
+                col-sm-7 col-lg-4 col-xl-4
+                offset-xl-1
+                d-none d-sm-block
+                order-lg-3
+              "
             >
               <div class="header-btns">
+                <div class="btn-2 donate">
+                  <a href="https://ko-fi.com/hoogkamer" target="donate"
+                    >Tip Me</a
+                  >
+                </div>
                 <div class="btn-1 btn-outlined">
                   <a
                     href="https://github.com/Hoogkamer/vue-org-chart"
@@ -62,7 +68,11 @@
             </div>
 
             <div
-              class="col-sm-1 col-6 col-lg-7 col-xl-6 position-static order-lg-2"
+              class="
+                col-sm-1 col-6 col-lg-7 col-xl-6
+                position-static
+                order-lg-2
+              "
             >
               <div class="main-navigation">
                 <ul class="main-menu">
@@ -89,7 +99,6 @@
       </header>
 
       <div class="hero-area pt-4 pt-lg-5">
-        <div class="float-shapes"></div>
         <div class="container">
           <div class="row justify-content-center justify-content-lg-start">
             <div class="col-md-8 col-lg-7 offset-lg-2">
@@ -198,7 +207,12 @@
         <div class="container">
           <div class="row">
             <div
-              class="col-xl-6 col-sm-10 col-md-6 col-10 order-md-2 offset-xl-1 d-none d-md-block"
+              class="
+                col-xl-6 col-sm-10 col-md-6 col-10
+                order-md-2
+                offset-xl-1
+                d-none d-md-block
+              "
             >
               <div class="content-image">
                 <img class="rocks" src="./image/rocks.png" alt="" />
@@ -482,7 +496,8 @@
                   question. These fields are then also added if you export in
                   excel, they start with "field_"
                   <h6>How can I use a different languate?</h6>
-                  There are a few fields you can change the name of. You can change them in the file "translate.js"
+                  There are a few fields you can change the name of. You can
+                  change them in the file "translate.js"
                   <h6>How can I use this in my own code?</h6>
                   This is not meant to be a plugin/library, but it is a complete
                   solution. If you want to use this as a part of your own
@@ -605,7 +620,7 @@
                       target="_blank"
                       >give a star
                     </a>
-                    :)
+                    or buy me a coffee :)
                   </div>
                 </div>
               </div>
@@ -693,6 +708,15 @@
       src="https://www.statcounter.com/counter/counter.js"
       async
     ></script>
+    <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+    <script>
+      kofiWidgetOverlay.draw("hoogkamer", {
+        type: "floating-chat",
+        "floating-chat.donateButton.text": "Tip Me",
+        "floating-chat.donateButton.background-color": "#5cb85c",
+        "floating-chat.donateButton.text-color": "#fff",
+      });
+    </script>
     <noscript>
       <div class="statcounter">
         <a
